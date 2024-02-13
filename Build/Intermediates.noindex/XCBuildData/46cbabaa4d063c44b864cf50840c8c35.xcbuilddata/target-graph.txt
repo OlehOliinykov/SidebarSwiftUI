@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'Sidebar' in project 'Sidebar' (no dependencies)
