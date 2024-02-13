@@ -20,34 +20,37 @@ struct ImagesView: View {
     }
     
     var body: some View {
-        ScrollView {
-            images
-            .background(scrollDetection)
-            .onPreferenceChange(ViewOffsetKey.self) { value in
-                startScrollingDetector.send(value)
-                endScrollingDetector.send(value)
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
+                images
+                    .background(scrollDetection)
+                    .onPreferenceChange(ViewOffsetKey.self) { value in
+                        startScrollingDetector.send(value)
+                        endScrollingDetector.send(value)
+                    }
             }
+            .coordinateSpace(name: Constants.CoordinateSpaces.scrollCoordinateSpace)
+            .navigationTitle(Constants.Navigation.galleryNavigationTitle)
         }
-        .coordinateSpace(name: "scroll")
     }
     
     private var images: some View {
-        ForEach(0..<8) { _ in
-            AsyncImage(url: URL(string: "https://picsum.photos/600")) { image in
+        ForEach(Constants.DataSource.imagesRange, id: \.self) { _ in
+            AsyncImage(url: URL(string: Constants.URLs.imagesSourceURL)) { image in
                 image
                     .resizable()
                     .scaledToFill()
-                    .frame(height: 240)
             } placeholder: {
                 ZStack {
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(.gray.opacity(0.6))
-                        .frame(height: 240)
+                    RoundedRectangle(cornerRadius: Constants.CornerRadius.imageCornerRadius)
+                        .fill(.ultraThinMaterial)
                     ProgressView()
                 }
+                
             }
-            .aspectRatio(3 / 2, contentMode: .fill)
-            .cornerRadius(16)
+            .frame(height: UIScreen.screenSize.height * Constants.Frames.defaultImageHeightMultiplier)
+            .aspectRatio(Constants.AspectRation.imageAspectRatio, contentMode: .fill)
+            .cornerRadius(Constants.CornerRadius.imageCornerRadius)
             .padding()
         }
     }
@@ -55,7 +58,7 @@ struct ImagesView: View {
     private var scrollDetection: some View {
         GeometryReader { geometry in
             Color.clear.preference(key: ViewOffsetKey.self,
-                                   value: -geometry.frame(in: .named("scroll")).origin.y)
+                                   value: -geometry.frame(in: .named(Constants.CoordinateSpaces.scrollCoordinateSpace)).origin.y)
         }
     }
     
@@ -70,7 +73,7 @@ struct ImagesView: View {
     
     private mutating func setupEndScrollingObserver() {
         endScrollingDetector
-            .debounce(for: .milliseconds(100), scheduler: RunLoop.main)
+            .debounce(for: .milliseconds(Constants.Delays.debounceMilliseconds), scheduler: RunLoop.main)
             .dropFirst()
             .sink { _ in
                 print("End scrolling")
@@ -79,13 +82,38 @@ struct ImagesView: View {
     }
 }
 
-struct ViewOffsetKey: PreferenceKey {
-    typealias Value = CGFloat
+fileprivate extension Constants {
+    enum CoordinateSpaces {
+        static let scrollCoordinateSpace: String = "ImagesListScrollView"
+    }
     
-    static var defaultValue: Value = .zero
+    enum AspectRation {
+        static let imageAspectRatio: CGFloat = (3 / 2)
+    }
     
-    static func reduce(value: inout Value, nextValue: () -> Value) {
-        value += nextValue()
+    enum DataSource {
+        static let imagesRange: Range<Int> = (.zero..<8)
+        static let imagesCount: CGFloat = 8
+    }
+    
+    enum Navigation {
+        static let galleryNavigationTitle: String = "Gallery"
+    }
+        
+    enum CornerRadius {
+        static let imageCornerRadius: CGFloat = 32
+    }
+    
+    enum Delays {
+        static let debounceMilliseconds: Int = 100
+    }
+    
+    enum Frames {
+        static let defaultImageHeightMultiplier: Double = 0.425
+    }
+    
+    enum URLs {
+        static let imagesSourceURL: String = "https://picsum.photos/600"
     }
 }
 

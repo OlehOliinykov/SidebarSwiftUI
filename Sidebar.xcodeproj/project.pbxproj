@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CCA5CB492B7BBC0F00F3F845 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5CB482B7BBC0F00F3F845 /* Constants.swift */; };
+		CCA5CB4B2B7BC30C00F3F845 /* ViewOffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5CB4A2B7BC30C00F3F845 /* ViewOffsetKey.swift */; };
+		CCA5CB4F2B7BC48900F3F845 /* UIWindow+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5CB4E2B7BC48900F3F845 /* UIWindow+Ext.swift */; };
+		CCA5CB512B7BC4A400F3F845 /* UIScreen+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5CB502B7BC4A400F3F845 /* UIScreen+Ext.swift */; };
 		CCF8C5C82B7BB52900DEA881 /* SidebarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8C5C72B7BB52900DEA881 /* SidebarApp.swift */; };
 		CCF8C5CA2B7BB52900DEA881 /* CompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8C5C92B7BB52900DEA881 /* CompositionView.swift */; };
 		CCF8C5CC2B7BB52A00DEA881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF8C5CB2B7BB52A00DEA881 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		CCA5CB482B7BBC0F00F3F845 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CCA5CB4A2B7BC30C00F3F845 /* ViewOffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOffsetKey.swift; sourceTree = "<group>"; };
+		CCA5CB4E2B7BC48900F3F845 /* UIWindow+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Ext.swift"; sourceTree = "<group>"; };
+		CCA5CB502B7BC4A400F3F845 /* UIScreen+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Ext.swift"; sourceTree = "<group>"; };
 		CCF8C5C42B7BB52900DEA881 /* Sidebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sidebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF8C5C72B7BB52900DEA881 /* SidebarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarApp.swift; sourceTree = "<group>"; };
 		CCF8C5C92B7BB52900DEA881 /* CompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionView.swift; sourceTree = "<group>"; };
@@ -39,9 +45,27 @@
 		CCA5CB472B7BBC0200F3F845 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				CCA5CB482B7BBC0F00F3F845 /* Constants.swift */,
+				CCA5CB4D2B7BC44200F3F845 /* Extensions */,
+				CCA5CB4C2B7BC43900F3F845 /* Constants */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		CCA5CB4C2B7BC43900F3F845 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CCA5CB482B7BBC0F00F3F845 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CCA5CB4D2B7BC44200F3F845 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CCA5CB4E2B7BC48900F3F845 /* UIWindow+Ext.swift */,
+				CCA5CB502B7BC4A400F3F845 /* UIScreen+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		CCF8C5BB2B7BB52900DEA881 = {
@@ -92,6 +116,7 @@
 			children = (
 				CCF8C5C92B7BB52900DEA881 /* CompositionView.swift */,
 				CCF8C5D82B7BB63300DEA881 /* ImagesView.swift */,
+				CCA5CB4A2B7BC30C00F3F845 /* ViewOffsetKey.swift */,
 			);
 			path = Sidebar;
 			sourceTree = "<group>";
@@ -175,6 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA5CB4B2B7BC30C00F3F845 /* ViewOffsetKey.swift in Sources */,
+				CCA5CB4F2B7BC48900F3F845 /* UIWindow+Ext.swift in Sources */,
+				CCA5CB512B7BC4A400F3F845 /* UIScreen+Ext.swift in Sources */,
 				CCF8C5CA2B7BB52900DEA881 /* CompositionView.swift in Sources */,
 				CCF8C5C82B7BB52900DEA881 /* SidebarApp.swift in Sources */,
 				CCF8C5D92B7BB63300DEA881 /* ImagesView.swift in Sources */,
