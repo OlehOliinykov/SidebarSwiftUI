@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCA5CB492B7BBC0F00F3F845 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5CB482B7BBC0F00F3F845 /* Constants.swift */; };
 		CCF8C5C82B7BB52900DEA881 /* SidebarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8C5C72B7BB52900DEA881 /* SidebarApp.swift */; };
 		CCF8C5CA2B7BB52900DEA881 /* CompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8C5C92B7BB52900DEA881 /* CompositionView.swift */; };
 		CCF8C5CC2B7BB52A00DEA881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF8C5CB2B7BB52A00DEA881 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCA5CB482B7BBC0F00F3F845 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CCF8C5C42B7BB52900DEA881 /* Sidebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sidebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF8C5C72B7BB52900DEA881 /* SidebarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarApp.swift; sourceTree = "<group>"; };
 		CCF8C5C92B7BB52900DEA881 /* CompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCA5CB472B7BBC0200F3F845 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CCA5CB482B7BBC0F00F3F845 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		CCF8C5BB2B7BB52900DEA881 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 			children = (
 				CCF8C5D52B7BB54700DEA881 /* App */,
 				CCF8C5D62B7BB55000DEA881 /* Sidebar */,
+				CCA5CB472B7BBC0200F3F845 /* Utils */,
 				CCF8C5D72B7BB55E00DEA881 /* Resources */,
 			);
 			path = Sidebar;
@@ -167,6 +178,7 @@
 				CCF8C5CA2B7BB52900DEA881 /* CompositionView.swift in Sources */,
 				CCF8C5C82B7BB52900DEA881 /* SidebarApp.swift in Sources */,
 				CCF8C5D92B7BB63300DEA881 /* ImagesView.swift in Sources */,
+				CCA5CB492B7BBC0F00F3F845 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

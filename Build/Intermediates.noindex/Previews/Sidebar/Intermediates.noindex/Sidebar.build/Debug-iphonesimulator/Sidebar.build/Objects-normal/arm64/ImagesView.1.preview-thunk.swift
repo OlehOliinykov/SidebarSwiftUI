@@ -22,10 +22,10 @@ extension ImagesView {
     @_dynamicReplacement(for: setupEndScrollingObserver()) private mutating func __preview__setupEndScrollingObserver() {
         #sourceLocation(file: "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Sidebar/ImagesView.swift", line: 72)
         endScrollingDetector
-            .debounce(for: .milliseconds(__designTimeInteger("#9607.[2].[8].[0].modifier[0].arg[0].value.arg[0].value", fallback: 100)), scheduler: RunLoop.main)
+            .debounce(for: .milliseconds(__designTimeInteger("#5495.[2].[8].[0].modifier[0].arg[0].value.arg[0].value", fallback: 100)), scheduler: RunLoop.main)
             .dropFirst()
             .sink { _ in
-                print(__designTimeString("#9607.[2].[8].[0].modifier[2].arg[0].value.[0].arg[0].value", fallback: "End scrolling"))
+                print(__designTimeString("#5495.[2].[8].[0].modifier[2].arg[0].value.[0].arg[0].value", fallback: "End scrolling"))
             }
             .store(in: &cancellables)
     
@@ -39,7 +39,7 @@ extension ImagesView {
         startScrollingDetector
             .dropFirst()
             .sink { _ in
-                print(__designTimeString("#9607.[2].[7].[0].modifier[1].arg[0].value.[0].arg[0].value", fallback: "Scroll"))
+                print(__designTimeString("#5495.[2].[7].[0].modifier[1].arg[0].value.[0].arg[0].value", fallback: "Scroll"))
             }
             .store(in: &cancellables)
     
@@ -62,22 +62,22 @@ extension ImagesView {
 extension ImagesView {
     @_dynamicReplacement(for: images) private var __preview__images: some View {
         #sourceLocation(file: "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Sidebar/ImagesView.swift", line: 35)
-        ForEach(__designTimeInteger("#9607.[2].[5].property.[0].[0].arg[0].value.[0]", fallback: 0)..<__designTimeInteger("#9607.[2].[5].property.[0].[0].arg[0].value.[1]", fallback: 8)) { _ in
-            AsyncImage(url: URL(string: __designTimeString("#9607.[2].[5].property.[0].[0].arg[1].value.[0].arg[0].value.arg[0].value", fallback: "https://picsum.photos/600"))) { image in
+        ForEach(__designTimeInteger("#5495.[2].[5].property.[0].[0].arg[0].value.[0]", fallback: 0)..<__designTimeInteger("#5495.[2].[5].property.[0].[0].arg[0].value.[1]", fallback: 8)) { _ in
+            AsyncImage(url: URL(string: __designTimeString("#5495.[2].[5].property.[0].[0].arg[1].value.[0].arg[0].value.arg[0].value", fallback: "https://picsum.photos/600"))) { image in
                 image
                     .resizable()
                     .scaledToFill()
-                    .frame(height: __designTimeInteger("#9607.[2].[5].property.[0].[0].arg[1].value.[0].arg[1].value.[0].modifier[2].arg[0].value", fallback: 240))
+                    .frame(height: __designTimeInteger("#5495.[2].[5].property.[0].[0].arg[1].value.[0].arg[1].value.[0].modifier[2].arg[0].value", fallback: 240))
             } placeholder: {
                 ZStack {
-                    RoundedRectangle(cornerRadius: __designTimeInteger("#9607.[2].[5].property.[0].[0].arg[1].value.[0].arg[2].value.[0].arg[0].value.[0].arg[0].value", fallback: 12))
-                        .fill(.gray.opacity(__designTimeFloat("#9607.[2].[5].property.[0].[0].arg[1].value.[0].arg[2].value.[0].arg[0].value.[0].modifier[0].arg[0].value.modifier[0].arg[0].value", fallback: 0.6)))
-                        .frame(height: __designTimeInteger("#9607.[2].[5].property.[0].[0].arg[1].value.[0].arg[2].value.[0].arg[0].value.[0].modifier[1].arg[0].value", fallback: 240))
+                    RoundedRectangle(cornerRadius: __designTimeInteger("#5495.[2].[5].property.[0].[0].arg[1].value.[0].arg[2].value.[0].arg[0].value.[0].arg[0].value", fallback: 12))
+                        .fill(.gray.opacity(__designTimeFloat("#5495.[2].[5].property.[0].[0].arg[1].value.[0].arg[2].value.[0].arg[0].value.[0].modifier[0].arg[0].value.modifier[0].arg[0].value", fallback: 0.6)))
+                        .frame(height: __designTimeInteger("#5495.[2].[5].property.[0].[0].arg[1].value.[0].arg[2].value.[0].arg[0].value.[0].modifier[1].arg[0].value", fallback: 240))
                     ProgressView()
                 }
             }
-            .aspectRatio(__designTimeInteger("#9607.[2].[5].property.[0].[0].arg[1].value.[0].modifier[0].arg[0].value.[0]", fallback: 3) / __designTimeInteger("#9607.[2].[5].property.[0].[0].arg[1].value.[0].modifier[0].arg[0].value.[1]", fallback: 2), contentMode: .fill)
-            .cornerRadius(__designTimeInteger("#9607.[2].[5].property.[0].[0].arg[1].value.[0].modifier[1].arg[0].value", fallback: 16))
+            .aspectRatio(__designTimeInteger("#5495.[2].[5].property.[0].[0].arg[1].value.[0].modifier[0].arg[0].value.[0]", fallback: 3) / __designTimeInteger("#5495.[2].[5].property.[0].[0].arg[1].value.[0].modifier[0].arg[0].value.[1]", fallback: 2), contentMode: .fill)
+            .cornerRadius(__designTimeInteger("#5495.[2].[5].property.[0].[0].arg[1].value.[0].modifier[1].arg[0].value", fallback: 16))
             .padding()
         }
     
@@ -96,7 +96,7 @@ extension ImagesView {
                 endScrollingDetector.send(value)
             }
         }
-        .coordinateSpace(name: __designTimeString("#9607.[2].[4].property.[0].[0].modifier[0].arg[0].value", fallback: "scroll"))
+        .coordinateSpace(name: __designTimeString("#5495.[2].[4].property.[0].[0].modifier[0].arg[0].value", fallback: "scroll"))
     
 #sourceLocation()
     }
