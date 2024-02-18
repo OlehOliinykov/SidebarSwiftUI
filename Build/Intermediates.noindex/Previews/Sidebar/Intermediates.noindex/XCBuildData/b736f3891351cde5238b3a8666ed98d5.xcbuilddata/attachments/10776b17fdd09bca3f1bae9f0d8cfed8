@@ -1,0 +1,118 @@
+{
+  "" : {
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Sidebar-master.dia",
+    "emit-module-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Sidebar-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Sidebar-master-emit-module.dia",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Sidebar-master.swiftdeps"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/App/SidebarApp.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarApp.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarApp.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarApp.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarApp.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarApp.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarApp.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarApp.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarApp~partial.swiftmodule"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Flows/Composition/CompositionView.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/CompositionView.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/CompositionView.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/CompositionView.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/CompositionView.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/CompositionView.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/CompositionView.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/CompositionView.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/CompositionView~partial.swiftmodule"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Flows/Gallery/GalleryView.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GalleryView.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GalleryView.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GalleryView.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GalleryView.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GalleryView.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GalleryView.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GalleryView.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/GalleryView~partial.swiftmodule"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Flows/Sidebar/SidebarView.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarView.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarView.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarView.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarView.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarView.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarView.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarView.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarView~partial.swiftmodule"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Flows/Sidebar/ViewModifiers/SidebarViewModifier.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarViewModifier.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarViewModifier.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarViewModifier.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarViewModifier.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarViewModifier.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarViewModifier.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarViewModifier.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarViewModifier~partial.swiftmodule"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Services/Sidebar/SidebarService.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarService.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarService.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarService.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarService.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarService.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarService.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarService.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/SidebarService~partial.swiftmodule"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Utils/Constants/Constants.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Constants.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Constants.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Constants.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Constants.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Constants.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/Constants~partial.swiftmodule"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Utils/Extensions/UIScreen+Ext.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIScreen+Ext.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIScreen+Ext.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIScreen+Ext.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIScreen+Ext.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIScreen+Ext.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIScreen+Ext.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIScreen+Ext.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIScreen+Ext~partial.swiftmodule"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Utils/Extensions/UIWindow+Ext.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIWindow+Ext.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIWindow+Ext.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIWindow+Ext.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIWindow+Ext.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIWindow+Ext.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIWindow+Ext.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIWindow+Ext.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/UIWindow+Ext~partial.swiftmodule"
+  },
+  "/Users/olehcartelll/Documents/petProjects/Sidebar/Sidebar/Utils/ViewOffsetKey/ViewOffsetKey.swift" : {
+    "const-values" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/ViewOffsetKey.swiftconstvalues",
+    "dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/ViewOffsetKey.d",
+    "diagnostics" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/ViewOffsetKey.dia",
+    "index-unit-output-path" : "/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/ViewOffsetKey.o",
+    "llvm-bc" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/ViewOffsetKey.bc",
+    "object" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/ViewOffsetKey.o",
+    "swift-dependencies" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/ViewOffsetKey.swiftdeps",
+    "swiftmodule" : "/Users/olehcartelll/Documents/petProjects/Sidebar/Build/Intermediates.noindex/Previews/Sidebar/Intermediates.noindex/Sidebar.build/Debug-iphonesimulator/Sidebar.build/Objects-normal/arm64/ViewOffsetKey~partial.swiftmodule"
+  }
+}
