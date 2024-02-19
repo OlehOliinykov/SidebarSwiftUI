@@ -1,3 +1,7 @@
+
+![SidebarPreview](https://github.com/OlehOliinykov/SidebarSwiftUI/assets/93034088/80b7fa54-851a-4f3f-a6b3-d6a0c9fdd795)
+
+
 Functional:
   
   Open\Close by button
