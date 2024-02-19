@@ -11,3 +11,5 @@ Functional:
   Open\Close by drag gesture
 
   Open\Close by threshold
+
+  Resolved conflict custom gesture with scroll view
